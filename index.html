@@ -15,16 +15,33 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Calendar</title>
   </head>
   <body>
     <div class="overlay"></div>
     <div class="wrap">
+      <div class="search">
+        <input
+          class="search-bar"
+          id="js-search"
+          type="text"
+          placeholder="Search by Month"
+        />
+
+        <div class="cross-icon">
+          <img
+            class="cross"
+            id="js-clear"
+            src="img/cross.png"
+            alt="cross-image"
+          />
+        </div>
+      </div>
       <div class="grid-container">
-        <div>
+        <div class="calendar-content">
           <header class="header">
-            <h2>January</h2>
+            <h2 class="header__title">January</h2>
             <div class="header__year">
               <h2>2021</h2>
             </div>
@@ -80,9 +97,9 @@
           </div>
         </div>
 
-        <div>
+        <div class="calendar-content">
           <header class="header">
-            <h2>February</h2>
+            <h2 class="header__title">February</h2>
             <div class="header__year">
               <h2>2021</h2>
             </div>
@@ -130,9 +147,9 @@
           </div>
         </div>
 
-        <div>
+        <div class="calendar-content">
           <header class="header">
-            <h2>March</h2>
+            <h2 class="header__title">March</h2>
             <div class="header__year">
               <h2>2021</h2>
             </div>
@@ -184,9 +201,9 @@
           </div>
         </div>
 
-        <div>
+        <div class="calendar-content">
           <header class="header">
-            <h2>April</h2>
+            <h2 class="header__title">April</h2>
             <div class="header__year">
               <h2>2021</h2>
             </div>
@@ -240,9 +257,9 @@
           </div>
         </div>
 
-        <div>
+        <div class="calendar-content">
           <header class="header">
-            <h2>May</h2>
+            <h2 class="header__title">May</h2>
             <div class="header__year">
               <h2>2021</h2>
             </div>
@@ -299,9 +316,9 @@
           </div>
         </div>
 
-        <div>
+        <div class="calendar-content">
           <header class="header">
-            <h2>June</h2>
+            <h2 class="header__title">June</h2>
             <div class="header__year">
               <h2>2021</h2>
             </div>
@@ -353,9 +370,9 @@
           </div>
         </div>
 
-        <div>
+        <div class="calendar-content">
           <header class="header">
-            <h2>July</h2>
+            <h2 class="header__title">July</h2>
             <div class="header__year">
               <h2>2021</h2>
             </div>
@@ -410,9 +427,9 @@
           </div>
         </div>
 
-        <div>
+        <div class="calendar-content">
           <header class="header">
-            <h2>August</h2>
+            <h2 class="header__title">August</h2>
             <div class="header__year">
               <h2>2021</h2>
             </div>
@@ -467,9 +484,9 @@
           </div>
         </div>
 
-        <div>
+        <div class="calendar-content">
           <header class="header">
-            <h2>September</h2>
+            <h2 class="header__title">September</h2>
             <div class="header__year">
               <h2>2021</h2>
             </div>
@@ -522,9 +539,9 @@
           </div>
         </div>
 
-        <div>
+        <div class="calendar-content">
           <header class="header">
-            <h2>October</h2>
+            <h2 class="header__title">October</h2>
             <div class="header__year">
               <h2>2021</h2>
             </div>
@@ -580,9 +597,9 @@
           </div>
         </div>
 
-        <div>
+        <div class="calendar-content">
           <header class="header">
-            <h2>November</h2>
+            <h2 class="header__title">November</h2>
             <div class="header__year">
               <h2>2021</h2>
             </div>
@@ -633,9 +650,9 @@
           </div>
         </div>
 
-        <div>
+        <div class="calendar-content">
           <header class="header">
-            <h2>December</h2>
+            <h2 class="header__title">December</h2>
             <div class="header__year">
               <h2>2021</h2>
             </div>
@@ -707,7 +724,7 @@
       </small>
     </footer>
     <!-- JS -->
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
     <!-- /JS -->
   </body>
 </html>
