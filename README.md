@@ -2,7 +2,7 @@
 
 ### Project Description
 
-Built a calendar with a search function where users will be able to search by months. 
+Created a calendar with a search function where users will be able to search by months. 
 
 ### Languages
 
