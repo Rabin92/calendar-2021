@@ -44,7 +44,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(81, 78, 78, 0.5);
+  background: rgba(82, 136, 94, 0.5);
   z-index: -1;
 }
 
@@ -54,19 +54,20 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.55em;
+  padding: 0.85em;
   color: rgb(239, 231, 231);
   z-index: 1;
   background: rgb(35, 35, 86);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-family: 'Courgette', cursive;
 }
 
 /* Card */
 
 .calendar {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   padding: 1em;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
