@@ -9,7 +9,6 @@ Built a calendar with a search function where users will be able to search by mo
 * HTML5
 * CSS3
 * JavaScript
-* SVG
 
 ### Tools
 
