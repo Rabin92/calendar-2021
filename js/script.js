@@ -2,7 +2,6 @@
 
 const mediumScreen = window.matchMedia('(min-width: 768px)');
 const largeScreen = window.matchMedia('(min-width: 800px)');
-
 const cardContainer = document.querySelector('.grid-container');
 const input = document.querySelector('#js-search');
 const clear = document.querySelector('.search');
@@ -33,7 +32,6 @@ input.addEventListener('keyup', e => {
       }
     } else {
       calendarContent[i].style.display = 'none';
-      // calendarContent[i].style.maxWidth = '500px';
     }
   });
 });
@@ -48,6 +46,7 @@ clear.addEventListener('click', e => {
       if (e.target.className === 'cross') {
         input.value = '';
         calendarContent[i].style.display = 'block';
+        calendarContent[i].style.maxWidth = 'none';
       }
     }
   }
