@@ -73,6 +73,7 @@ input[type='text'] {
 
 input[type='text']::placeholder {
   letter-spacing: 3px;
+  font-weight: bold;
 }
 
 .cross-icon {
@@ -98,7 +99,21 @@ input[type='text']::placeholder {
   padding: 0.85em;
   color: rgb(239, 231, 231);
   z-index: 1;
-  background: rgb(35, 35, 86);
+  background-image: linear-gradient(
+    to right,
+    #2a1280,
+    #2a248f,
+    #2b349d,
+    #2b43ab,
+    #2c52b8,
+    #2e54ba,
+    #3157bc,
+    #3359be,
+    #3650b6,
+    #3947ad,
+    #3b3ea4,
+    #3d349b
+  );
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   letter-spacing: 2px;
