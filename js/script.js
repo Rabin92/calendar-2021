@@ -1,6 +1,8 @@
 // Variables
 
-const largeScreen = window.matchMedia('(min-width: 768px)');
+const mediumScreen = window.matchMedia('(min-width: 768px)');
+const largeScreen = window.matchMedia('(min-width: 800px)');
+
 const cardContainer = document.querySelector('.grid-container');
 const input = document.querySelector('#js-search');
 const clear = document.querySelector('.search');
@@ -8,7 +10,7 @@ const calendarContent = document.querySelectorAll('.calendar-content');
 
 // Media Query
 
-if (largeScreen.matches) {
+if (mediumScreen.matches) {
   cardContainer.classList.add(
     'animate__animated',
     'animate__lightSpeedInRight'
@@ -26,10 +28,12 @@ input.addEventListener('keyup', e => {
 
     if (titleContent.includes(theTargetValue)) {
       calendarContent[i].style.display = 'block';
-      calendarContent[i].style.maxWidth = '500px';
+      if (largeScreen.matches) {
+        calendarContent[i].style.maxWidth = '500px';
+      }
     } else {
       calendarContent[i].style.display = 'none';
-      calendarContent[i].style.maxWidth = '500px';
+      // calendarContent[i].style.maxWidth = '500px';
     }
   });
 });
