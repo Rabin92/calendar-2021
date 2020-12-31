@@ -25,10 +25,11 @@ input.addEventListener('keyup', e => {
     const titleContent = headerTitle.textContent.toUpperCase();
 
     if (titleContent.includes(theTargetValue)) {
-      calendarContent[i].style.maxWidth = '500px';
       calendarContent[i].style.display = 'block';
+      calendarContent[i].style.maxWidth = '500px';
     } else {
       calendarContent[i].style.display = 'none';
+      calendarContent[i].style.maxWidth = '500px';
     }
   });
 });
