@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+ul,
+li {
+  list-style-type: none;
+}
+
 body {
   font-family: 'Hind', sans-serif;
   line-height: 1.5;
