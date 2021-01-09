@@ -155,7 +155,6 @@ input[type='text']::placeholder {
   color: rgb(200, 197, 197);
 }
 
-.calendar__date--red,
 .calendar__day--red {
   color: rgb(255, 9, 9);
 }
