@@ -8,7 +8,8 @@ Created a calendar with a search function where users will be able to search by 
 
 * HTML5
 * CSS3
-* JavaScript
+* Vanilla JavaScript
+* Vue JS
 
 ### Tools
 
